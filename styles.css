@@ -1,0 +1,404 @@
+.conteneur {
+    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteneur-image {
+    margin-left: 15px;
+    /* margin-right: 650px; Espace entre les deux divs */
+    justify-content: space-between; /* Crée un espace égal entre les divs */
+}
+
+.conteneur-divs {
+    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
+    justify-content: space-between;
+   column-gap: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.container h5 {
+    display: inline;
+    margin:0;
+}
+
+  .logo {
+    align-self: center;
+    margin-bottom: 0px; /* Ajoutez une marge en bas pour l'espace */
+  }
+
+  .custom-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(7,26,53);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Ajout de coins arrondis */
+  }
+  
+  .custom-button img {
+    width: 20px; /* Ajustez la largeur de l'image selon vos besoins */
+    margin-right: 10px; /* Espace entre l'image et le texte */
+  }
+  
+  .custom-button h5 {
+    margin: 0;
+    font-size: 15px; /* Ajustez la taille du texte selon vos besoins */
+  }
+  .containerB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .separator1{
+margin-top: 20px;
+    left: 0;
+    width: 100%; /* Prend toute la largeur de la section */
+    border-top: 1px solid rgb(205,200,200); /* Ajoute une bordure pour simuler la ligne */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+    margin-top: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    color: black; 
+} 
+
+#bt-guichet{
+   color: white; 
+   background-color: rgb(7,26,53);
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px; /* Ajout de coins arrondis */
+   
+}
+
+.separator2{
+    margin-top: 10px;
+        left: 0;
+        width: 100%; /* Prend toute la largeur de la section */
+        border-top: 1px solid rgb(205,200,200); /* Ajoute une bordure pour simuler la ligne */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoutez une ombre à votre séparateur */
+    }
+
+    .background-section {
+        height: 500px;
+        margin-top: 10px;
+        background-image: url('background.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin vers votre image */
+        background-size: cover; /* Assurez-vous que l'image couvre toute la section */
+        background-position: center; /* Centrez l'image horizontalement et verticalement */
+        /* Vous pouvez ajouter d'autres propriétés comme background-repeat si nécessaire */
+    }
+    .container2 {
+        display: flex; /* Utiliser flexbox pour aligner les divs horizontalement */
+        align-items: center; /* Centrer verticalement les éléments dans le conteneur */
+        justify-content: space-around;
+        height: 500px;
+    }
+    
+   
+    .middle {
+        display: flex;
+        align-items: center; /* Centrer verticalement les images dans le div .middle */
+        flex-direction: column; /* Aligner les éléments verticalement */
+    }
+    .image-circle{
+        margin-top: 20px;
+    }
+
+    .ligne-deux-button{
+        margin-top: 20px;
+display: flex; 
+justify-content: center;
+}
+.container-card{
+    display: flex; /* Utiliser flexbox pour aligner les éléments */
+    flex-direction: column;
+    height: 430px;
+    width: 300px;
+    border: 1px solid   #666666; /* Couleur de la bordure */
+  box-shadow: 4px 4px 8px  #666666; /* Effet d'ombre */
+  border-radius: 7px;
+ 
+}
+
+
+#cadre-h4 {
+    height:8px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(196,211,232);;
+  margin-left: 10px;
+  display: flex; /* Utilisation de flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */ 
+  padding: 10px 0;
+  
+}
+#cadre-h4 h4{
+    color: black; 
+}
+#title-card{
+    margin-top: 15px;
+    margin-left:10px ;
+    margin-bottom: 0;
+}
+
+.cadre-localisation{
+    height: 25px;
+    width: fit-content;
+    margin-left: 10px;
+  color: #666666;
+  display: flex; /* Utilisation de flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */ 
+  margin-top: 10px;
+}
+
+.cadre-localisation img {
+    margin-right: 5px; /* Ajoute une marge à droite de l'image */
+}
+.cadre-localisation p {
+    margin: 0; 
+}
+.cadre-timer{
+    margin-top: 10px;
+    height: 25px;
+    width: fit-content;
+    margin-left: 10px;
+    background-color:#D9D9D9;
+  color: #212529;
+  display: flex; /* Utilisation de flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */ 
+  padding: 0px 8px;
+}
+.cadre-timer img {
+    margin-right: 5px; /* Ajoute une marge à droite de l'image */
+}
+#paragraphe-a-partir{
+margin-left: 10px;
+margin-bottom: 0;
+
+}
+
+.container-h4-button{
+    margin-left: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center; /* Pour aligner les éléments verticalement */
+    /*background-color: red; */
+    justify-content: space-between;
+ 
+margin-top:0;
+margin-bottom: 0;
+padding-top: 0 ;
+}
+#span-h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-buy{
+text-decoration: none;
+background-color: #071A35 ;
+color: white;
+padding: 5px 20px;
+border-radius: 5px;
+display: inline-block; /* Pour eviter le prb du margin */
+margin-right: 20px;
+}
+
+.container-h4-button h4{
+    margin-right: 10px;
+}
+
+.container-row-cards{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.container-pere {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+}
+
+.item {
+    text-align: center;
+    margin-bottom:  0px; /* Espace entre les divs */
+    width: 200px;
+    height: 250px;
+}
+
+.section-footer-color{
+    background-color: #C4D3E8;
+    height: 430px;
+}
+ 
+.container-foot-1{
+display: flex;;
+flex-direction: column;
+margin-left: 40px;
+}
+ #container-foot-1-img{
+    margin-left: 40px;
+    margin-top: 30px;
+} 
+#paragraphe-footer{
+    width: 450px;
+    margin: 0;
+    margin-top: 30px;
+}
+#title-foot-h3{
+    margin:0;
+    margin-top: 50px;
+}
+.container-btn-foot{
+    display: flex; 
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 20px;
+}
+.btn-foot{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: #071A35;
+color: white;
+width:190px;
+height: 35px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+.btn-foot img{
+    margin-left: 15px;
+}
+.btn-foot h5{
+    margin-right: 15px;
+}
+#title-foot-h4{
+    margin:0;
+    margin-top: 20px;
+}
+.barre{
+    background-color: #8C8C8C;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.barre img{
+    margin-right: 10px;
+}
+.container-maroc{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+/* La deuxieme partie du footer cote droit*/
+
+.container-foot-droit{
+display: flex;
+flex-direction: column;
+margin-right: 40px;
+margin-top: 65px;
+}
+
+.containerF{
+    display: flex;
+    justify-content: space-between;
+width: 550px;
+}
+.container-foot-2{
+    display: flex;
+    flex-direction: column;
+}
+.container-foot-2 h3{
+    margin: 0;
+}
+
+.container-foot-2 p{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444444;
+  
+}
+
+.form-container {
+    margin-top: 18px;
+    border: 1px solid #AAAAAA;
+    padding: 15px 10px;
+    border-radius: 8px;
+
+  }
+  
+  .form-container p {
+    font-size: 20px;
+    margin-top: 0;
+    color: #212529;
+  }
+  #paragraphe-form{
+    font-size: 16px;
+    margin-top: 0;
+    color: #212529;
+  }
+  
+  #newsletter-form{
+    display: flex;
+ }
+ #newsletter-form input[type="email"] {
+    width: 430px; /* Vous pouvez ajuster la valeur selon vos besoins */
+}
+  
+  .form-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #071A35;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .container-general-foot{
+    display: flex;
+    justify-content: space-between;
+    pading-bottom: 30px;
+  }
+
+  /* La fin du footer */
+
+  .badge1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
